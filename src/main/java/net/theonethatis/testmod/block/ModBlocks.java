@@ -18,6 +18,10 @@ import net.theonethatis.testmod.item.ModItemGroup;
 public class ModBlocks {
 	public static final Block PEBBLELESS_DIRT = registerBlock("pebbleless_dirt", new Block(FabricBlockSettings.of(Material.SOIL).strength(0.5f).requiresTool().sounds(BlockSoundGroup.GRASS)), ModItemGroup.TAB_TEST_MOD);
 
+	public static final Block TIN_ORE = registerBlock("tin_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(3f).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.TAB_TEST_MOD);
+	public static final Block TIN_BLOCK = registerBlock("tin_block", new Block(FabricBlockSettings.of(Material.METAL).strength(3f).requiresTool().sounds(BlockSoundGroup.COPPER)), ModItemGroup.TAB_TEST_MOD);
+	public static final Block RAW_TIN_BLOCK = registerBlock("raw_tin_block", new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool().sounds(BlockSoundGroup.STONE)), ModItemGroup.TAB_TEST_MOD);
+
 	private static Block registerBlock(String name, Block block, ItemGroup tab){
 		registerBlockItem(name, block, tab);
 		return Registry.register(Registry.BLOCK, new Identifier(TestMod.MOD_ID, name), block);

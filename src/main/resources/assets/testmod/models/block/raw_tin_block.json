@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "testmod:block/pebbleless_dirt"
+    "all": "testmod:block/raw_tin_block"
   }
 }

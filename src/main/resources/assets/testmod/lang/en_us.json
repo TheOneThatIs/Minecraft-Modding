@@ -3,7 +3,18 @@
   "item.testmod.test_item": "Test Item",
   "item.testmod.test_item2": "Test Item 2",
 
+  "item.testmod.tin_ingot":  "Tin Ingot",
+  "item.testmod.raw_tin":  "Raw Tin",
+
+
+
   "block.testmod.pebbleless_dirt":  "Pebbleless Dirt",
+
+  "block.testmod.tin_ore":  "Tin Ore",
+  "block.testmod.tin_block":  "Tin Block",
+  "block.testmod.raw_tin_block": "Raw Tin Block",
+
+
 
   "itemGroup.testmod.tab_test_mod": "Test Mod"
 }
